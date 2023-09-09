@@ -1,0 +1,241 @@
+@font-face {
+  font-family: "cursive";
+  src: local("cursive"), url(./font/Gamaleon.ttf) format("opentype") tech(color-COLRv1);
+}
+@font-face {
+  font-family: "RomanD";
+  src: local("RomanD"), url(./font/RomanD.ttf) format("opentype") tech(color-COLRv1);
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+h1, h2, h3, p, span, input, button {
+  font-family: "RomanD";
+}
+
+main {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+  min-height: 150vh;
+  padding-bottom: 40px;
+  background-image: url(./images/bg.png);
+  background-size: contain;
+}
+main .wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+main .wrapper .invitation-block {
+  width: 100%;
+  height: 300px;
+  background-image: url(./images/din.JPG);
+  background-size: cover;
+}
+main .wrapper .invitation-block .image-opacity {
+  position: relative;
+  border-radius: inherit;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4666666667), rgba(0, 0, 0, 0.714), rgba(0, 0, 0, 0.8509803922));
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+main .wrapper .invitation-block .image-opacity .image-opacity__info {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  right: 5%;
+  color: #fff;
+  padding: 10px 0;
+}
+main .wrapper .invitation-block .image-opacity .image-opacity__info h3 {
+  font-size: 46px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-family: "cursive";
+}
+main .wrapper .invitation-block .image-opacity .image-opacity__info p {
+  padding: 15px 0;
+}
+main .wrapper .info {
+  background: rgba(255, 255, 255, 0.9294117647);
+  min-height: 100vh;
+  display: flex;
+  padding: 50px 0;
+  flex-direction: column;
+  gap: 50px;
+}
+main .wrapper .info .location {
+  width: 90%;
+  margin: 0 auto;
+}
+main .wrapper .info .location .location-image {
+  margin: 20px 0;
+  background-image: url(./images/map.png);
+  width: 100%;
+  height: 300px;
+  background-size: contain;
+  position: relative;
+}
+main .wrapper .info .location .location-image .location-opacity__info {
+  background: linear-gradient(rgba(0, 0, 0, 0), #000);
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding: 50px 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .wrapper .info .location .location-image .location-opacity__info h3 {
+  font-size: 20px;
+}
+main .wrapper .registartion {
+  width: 100%;
+}
+main .wrapper .registartion form {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .wrapper .registartion form p {
+  text-align: center;
+}
+main .wrapper .registartion form input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #78866b;
+  padding: 20px 10px;
+  font-size: 16px;
+  outline: none;
+}
+main .wrapper .registartion form input:focus {
+  border: 1px solid #78866b;
+}
+main .wrapper .registartion form button {
+  width: 50%;
+  margin: 0 auto;
+  font-weight: 500;
+  padding: 20px 30px;
+  font-size: 16px;
+  background: #78866b;
+  border: none;
+  color: #fff;
+}
+main .wrapper .message {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .wrapper .message .message-time {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .wrapper .message .message-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+h2 {
+  text-align: center;
+  position: relative;
+}
+h2::before {
+  content: " ";
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  width: 10%;
+  height: 1px;
+  background: #000;
+}
+h2::after {
+  content: " ";
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  width: 10%;
+  height: 1px;
+  background: #000;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  font-family: "cursive";
+}
+h1::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 25px;
+  width: 25%;
+  height: 1px;
+  background: #000;
+}
+h1::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  width: 25%;
+  height: 1px;
+  background: #000;
+}
+h1 .first::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 20%;
+  height: 1px;
+  background: #000;
+}
+h1 .first::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 20%;
+  height: 1px;
+  background: #000;
+}
+h1 .second::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  width: 20%;
+  height: 1px;
+  background: #000;
+}
+h1 .second::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  width: 20%;
+  height: 1px;
+  background: #000;
+}
+
+.logo {
+  background: #fff;
+  padding: 20px 0;
+}/*# sourceMappingURL=styles.css.map */
