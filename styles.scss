@@ -3,10 +3,9 @@
   src: url(./font/Gamaleon.ttf);
 }
 @font-face {
-  font-family: "RomanD";
-  src: local("RomanD"), url(./font/RomanD.ttf) format("opentype") tech(color-COLRv1);
+  font-family: roman;
+  src: url(./font/RomanD.ttf);
 }
-
 * {
   padding: 0px;
   margin: 0px;
@@ -16,7 +15,7 @@ body {
   background: #0006;
 }
 h1,h2,h3,p,span, input, button {
-  font-family: "RomanD";
+  font-family: roman;
 }
 main {
   margin: 0 auto;
