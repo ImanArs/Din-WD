@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "cursive";
-  src: local("cursive"), url(./font/Gamaleon.ttf) format("opentype") tech(color-COLRv1);
+  font-family: sezim;
+  src: url(./font/Gamaleon.ttf);
 }
 @font-face {
   font-family: "RomanD";
@@ -54,7 +54,7 @@ main {
             font-size: 46px;
             font-weight: 100;
             letter-spacing: 2px;
-            font-family: "cursive";
+            font-family: sezim;
           }
           p {
             padding: 15px 0;
@@ -194,7 +194,7 @@ h1 {
   position: relative;
   width: 90%;
   margin: 0 auto;
-  font-family: "cursive";
+  font-family: sezim;
   &::before {
     content: "";
     position: absolute;
