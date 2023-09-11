@@ -132,6 +132,11 @@ main .wrapper .registartion form button {
   border: none;
   color: #fff;
 }
+main .wrapper .registartion form .disabled-btn {
+  background: rgba(53, 64, 42, 0.5058823529);
+  cursor: not-allowed;
+  border: 3px solid rgba(137, 3, 3, 0.484);
+}
 main .wrapper .message {
   width: 90%;
   margin: 0 auto;

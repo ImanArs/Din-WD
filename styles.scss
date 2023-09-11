@@ -130,6 +130,11 @@ main {
           border: none;
           color: #fff;
         }
+        .disabled-btn {
+          background: #35402a81;
+          cursor: not-allowed;
+          border: 3px solid rgba(137, 3, 3, 0.484);
+        }
       }
     }
 
